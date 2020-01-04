@@ -1,0 +1,23 @@
+{
+    "name": "borna/persion-pdf",
+    "description": "pdf package with support of farsi chars",
+    "authors": [
+        {
+            "name": "Aliborna",
+            "email": "aliborna1370s@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "PersianPdf\\src\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PersianPdf\\src\\PersianPdfServiceProvider"
+            ]
+        }
+    }
+}
